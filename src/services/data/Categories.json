@@ -1,0 +1,42 @@
+[
+  {
+    "CategoryName": "Beverages",
+    "Description": "Soft drinks, coffees, teas, beers, and ales",
+    "ImageURL": "http://example.com/images/beverages.jpg"
+  },
+  {
+    "CategoryName": "Condiments",
+    "Description": "Sweet and savory sauces, relishes, spreads, and seasonings",
+    "ImageURL": "http://example.com/images/condiments.jpg"
+  },
+  {
+    "CategoryName": "Confections",
+    "Description": "Desserts, candies, and sweet breads",
+    "ImageURL": "http://example.com/images/confections.jpg"
+  },
+  {
+    "CategoryName": "Dairy Products",
+    "Description": "Cheeses, yogurts, and other dairy products",
+    "ImageURL": "http://example.com/images/dairy.jpg"
+  },
+  {
+    "CategoryName": "Grains/Cereals",
+    "Description": "Breads, crackers, pasta, and cereal",
+    "ImageURL": "http://example.com/images/grains.jpg"
+  },
+  {
+    "CategoryName": "Meat/Poultry",
+    "Description": "Prepared meats",
+    "ImageURL": "http://example.com/images/meat.jpg"
+  },
+  {
+    "CategoryName": "Produce",
+    "Description": "Dried fruit and bean curd",
+    "ImageURL": "http://example.com/images/produce.jpg"
+  },
+  {
+    "CategoryName": "Seafood",
+    "Description": "Seaweed and fish",
+    "ImageURL": "http://example.com/images/seafood.jpg"
+  }
+]

@@ -1,0 +1,32 @@
+networks:
+  bi-pentaho-network:
+    name: bi-pentaho-network
+    driver: bridge
+
+services:
+  bi-pentaho:
+    build: .
+    container_name: bi-pentaho
+    image: bi-pentaho:latest
+    env_file:
+      - .env
+    environment:
+      - TZ=America/Sao_Paulo
+    volumes:
+      - ${PWD}:/app
+    networks:
+      - bi-pentaho-network
+    depends_on:
+      - postgres
+    
+  postgres:
+    image: postgres
+    restart: always
+    container_name: postgres
+    environment:
+      - POSTGRES_PASSWORD=KHNt8QqCX41bKetI
+      - TZ=America/Sao_Paulo
+    ports:
+      - 5432:5432
+    networks:
+      - bi-pentaho-network
